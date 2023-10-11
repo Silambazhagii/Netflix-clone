@@ -1,0 +1,372 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.netflix{
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+.bdy{
+    background-image: url("https://raw.githubusercontent.com/Kalvium-Program/netflix-clone-boilerplate/879632ffba193ba160a60da7759b23651e5feaa5/assets/Title-Image.png");
+    background-size: cover;
+    background-size: 100%;
+    height: 110vh;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    color: #ffffff;
+    overflow-x: hidden;
+    margin-left: 0px;  
+}
+
+.bdy::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(165, 160, 160, 0), rgba(0, 0, 0, 0.7));
+    z-index: 1;
+
+}
+
+.nav{
+    display: flex;
+    width: 300px;
+    position: sticky;
+    margin-left: 150px;
+    margin-top: -20px;
+    justify-content: space-evenly;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 17px;
+}
+.nav.active{
+    color: antiquewhite;
+}
+
+.n{
+    /* position: absolute; */
+    margin-top: 320px;
+    display: flex;
+    margin-left: 50px;
+}
+
+h4{
+    margin-left: 17px;
+    margin-top: 12px;
+    white-space: pre-wrap;
+}
+
+.maid{
+    font-size: 100px;
+    font-weight: bolder;
+    margin-left: 50px;
+
+}
+
+.search{
+    position: absolute;
+    right: 250px;
+    top: 20px;
+    filter: brightness(0) invert(1) grayscale(100%) contrast(100%);
+}
+
+.gift{
+    position: absolute;
+    right: 200px;
+    top: 17px;
+    filter: brightness(0) invert(1) grayscale(100%) contrast(100%);
+}
+
+.bell{
+    position: absolute;
+    right:145px;
+    top:20px;
+    filter: brightness(0) invert(1) grayscale(100%) contrast(100%);
+}
+
+.down{
+    position: absolute;
+    right: 90px;
+    top: 22px;
+    filter: brightness(0) invert(1) grayscale(100%) contrast(100%);
+}
+
+.play{
+    text-align: center;
+    border-radius: 5px;
+    width: 80px;
+    padding: 4px 5px;
+    display: flex;
+    font-weight: 700;
+    margin-left: 50px;
+}
+
+.pl{
+    margin-top: 2px;
+    margin-left: 2px;
+}
+.ay{
+    margin-top: 5px;
+    margin-left: 7px;
+
+}
+
+.inf{
+    text-align: center;
+    color: #ffffff;
+    border-radius: 5px;
+    width: 140px;
+    padding: 4px 5px;
+    display: flex;
+    font-weight: 700;
+    margin-left: 20px;
+    background-color: transparent;
+    background-color: rgba(221, 214, 214, 0.2);
+}
+
+.in{
+    margin-top: 2px;
+    margin-left: 2px;
+    padding-left: 3px;
+    filter: brightness(0) invert(1) grayscale(100%) contrast(100%);
+}
+.fo{
+    margin-top: 7px;
+    margin-left: 7px;
+
+}
+
+.me{
+    display: flex;
+}
+
+.right{
+    filter: brightness(0) invert(1) grayscale(100%) contrast(100%);
+    margin-left: 10px;
+    margin-top: 3px;
+    position: absolute;
+
+    
+}
+
+.see{
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.again{
+    /* margin-left: 300px;
+    margin-right: 300px; */
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.sp{
+    margin-left: -50px;
+}
+body{
+    background-color:rgb(20, 20, 20);
+}
+
+.row2{
+    display:flex;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 70px;
+
+}
+.rit{
+    filter: brightness(0) invert(1) grayscale(100%) contrast(100%);
+    margin-left: 210px;
+    margin-top: 7px;
+    position: absolute;
+
+}
+
+.agnes, .i1, .i2, .i3, .i4{
+    position: relative;
+    display: flex;
+    overflow-x: hidden;
+    justify-content: space-evenly;
+}
+
+.logo{
+    display: flex;
+}
+
+.final{
+    margin-top: 100px;
+    margin-left: 270px;
+    filter: brightness(0) invert(1) grayscale(20%) contrast(10%);
+
+}
+.lg{
+    margin-left: 20px;
+}
+
+.names{
+    color: grey;
+    margin-left: 250px;
+    margin-top: 13px;
+}
+
+p{
+    margin-top: 20px;
+}
+
+.sp1{
+    position:absolute;
+    left: 1px;
+}
+
+.mii{
+    margin-left: 47px;
+    
+}
+.last{
+    margin-top: 10px;
+    color: grey;
+    padding:7px;
+    background-color: rgb(20, 20, 20);
+    margin-bottom: 100px;
+    border: 1px solid grey;
+}
+
+.name{
+    color: grey;
+    margin-left: 250px;
+    margin-top: -250px;
+}
+p{
+    margin-top: 10px;
+}
+
+.nam{
+    color: grey;
+    margin-left: 500px;
+    margin-top: -87px;
+}
+p{
+    margin-top: 10px;
+}
+
+.na{
+    color: grey;
+    margin-left: 750px;
+    margin-top: -87px;
+}
+
+.boody{
+    margin-top: -70px;
+    margin-left: 70px;
+}
+
+.se{
+    margin-top: 50px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.s{
+    margin-top: 50px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.py{
+    margin-top: 7px;
+
+}
+.i{
+    z-index: 0;
+    
+}
+
+@media all and (max-width:700px){
+    .nav{
+        display: none;
+}
+    .bdy{
+    background-size: 100%;
+    }
+    .maid{
+        font-size: 50px;
+    }
+    .n, .maid, .me, .row2{
+        margin-top: 10px;
+    }
+    .n{
+        margin-top: 50px;
+    }
+    .again, .boody, .row2, .se, .s{
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
+    .boody{
+        margin-top: -430px;
+    }
+    .again{
+        margin-top: 10px;
+    }
+    .sp{
+        margin-top: 17px;
+    }
+    .lastdiv{
+        display:block;
+        justify-content: center;
+        text-align: center;
+    }
+    .final{
+        margin-left: 30%;
+    
+    }
+    .names{
+        flex-direction: column;
+        display: flex;
+        margin-left: -10%;
+        text-align: center;
+    }
+    .nam{
+        margin-left: 0%;
+        margin-top: 30px;
+    }
+    .na{
+        margin-left: 0%;
+        margin-top: 30px;
+    }
+    .name{
+        margin-left: 0%;
+        margin-top: -57px;
+    }
+    .i1, .i2, .i3, .i4{
+        /* flex-direction: column; */
+        /* display: flex; */
+        margin-top: 20px;
+        margin-left: 7%;
+    }
+    .i1{
+        margin-left: 18%;
+    }
+    .sp2, .sp3, .sp4{
+        margin-left: -8%;
+        z-index: 1;
+
+    }
+    .agnes{
+        display: block;
+    }
+    .py{
+        margin-left: -28%;
+    }
+}
